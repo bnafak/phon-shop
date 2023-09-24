@@ -5,7 +5,7 @@ import Banner from "./Banner";
 
 const Home = () => {
     const phones =useLoaderData()
-    console.log(phones)
+    // console.log(phones)
       return (
         <div>
             <Banner></Banner>
