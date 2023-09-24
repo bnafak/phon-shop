@@ -2,7 +2,7 @@
 
 const Logo = () => {
     return (
-        <div>
+        <div className="text-xl font-semibold">
             Phone Shop
         </div>
     );

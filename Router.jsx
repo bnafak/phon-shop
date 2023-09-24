@@ -12,6 +12,7 @@ import MainLayout from "./src/MainLayout/MainLayout";
             {
               path: '/',
               element: <Home></Home>,
+              loader: ()=> fetch('https://dummyjson.com/products')
             },
             {
                 path:'/favorite',
